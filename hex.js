@@ -21,5 +21,6 @@ function getRandomHexColor() {
     for (let i = 0; i < 6; i++) {
         hexColor += hex[Math.floor(Math.random() * hex.length)];
     }
-    return hexColor;
+    return hexColor; 
+    
 }
