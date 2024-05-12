@@ -22,5 +22,4 @@ function getRandomHexColor() {
         hexColor += hex[Math.floor(Math.random() * hex.length)];
     }
     return hexColor; 
-    
 }
